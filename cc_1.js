@@ -26,3 +26,12 @@ console.log("After diving by 1.5: ", accountBalance);
 let customerName = "Adam Brown";
 let welcomeMessage = "Welcome, " + customerName + "We hope you find what you're looking for.";
 console.log(welcomeMessage);
+// Task 5:
+let isLoggedIn = true;
+let hasPermission = true;
+let canAccess = isLoggedIn &&hasPermission;
+console.log("User has access:", canAccess);
+let canAccessAlt = isLoggedIn || haspermission;
+console.log("User has access (OR condition):", canAccessAlt);
+let isNotLoggedIn = !isLoggedIn;
+console.log("User is not logged in:", isNotLoggedIn);
