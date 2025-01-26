@@ -22,3 +22,7 @@ accountBalance *= 2;
 console.log("After multiplying by 2: ", accountBalance);
 accountBalance /= 1.5;
 console.log("After diving by 1.5: ", accountBalance);
+// Task 4:
+let customerName = "Adam Brown";
+let welcomeMessage = "Welcome, " + customerName + "We hope you find what you're looking for.";
+console.log(welcomeMessage);
